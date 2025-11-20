@@ -1,0 +1,5 @@
+[tool.mypy]
+files = "app"
+ignore_missing_imports = true
+strict = true
+# strict=True enables full MyPy checks to catch more potential bugs.
